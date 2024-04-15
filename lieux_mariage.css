@@ -1,0 +1,1063 @@
+
+body{
+    margin: 0px;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  } 
+
+
+  
+  /*__HEADER__*/
+
+header {
+    background-image:url(/IMG/IMG\ PAGE\ ACCUEIL/1.png);
+    background-size:100%;
+    height:735px;
+  }
+  
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #00000095;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+  }
+  
+  
+  .navbar img {
+    height: 100px;
+    width: 100px;
+  
+  }
+  
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    margin-left: 711px;
+  }
+  
+  
+  .navbar li {
+    margin: 0 30px;
+  }
+  
+  
+  
+  
+  /*------arriere plan -----------------*/
+  
+  .titre_header{
+    font-family: "inter";
+    font-style: italic;
+    font-size: 70px;
+    color: white;
+    font-weight: 100;
+    margin: 0px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.514);
+    width: 453px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  
+  .div_titre_header{
+    padding-top: 375px;
+  }
+  
+  
+  
+  /* LES BUTTONS navbar header*/
+  
+  button {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    border: none;
+    background: none;
+    font-weight: 200;
+    font-family: 'Poppins', sans-serif;
+  
+  }
+  
+  
+  button::before {
+    margin-left: auto;
+  }
+  
+  
+  button::after,
+  button::before {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #ffffff;
+    display: block;
+    transition: 0.5s;
+  }
+  
+  
+  button:hover::after,
+  button:hover::before {
+    width: 100%;
+  }
+  
+
+
+  /*MENU HAMBURGER*/
+
+  .navbar .burger-menu-button {
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+  }
+  
+  
+  .burger-menu {
+    display: none;
+    height: 0;
+    position: absolute;
+    right:0;
+    top: 70px;
+    width: 200px; 
+    background: rgba(255, 255, 255, 0.067);
+    backdrop-filter: blur(20px);
+    overflow: hidden;
+    transition: height 0.2S cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  
+  
+  .burger-menu.open {
+    height: 300px;
+    width: 100vw;
+    left: 0;
+  
+  }
+  
+  
+  .burger-menu li {
+    padding: 1rem; 
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+  .burger-menu a {
+    color: #ffffffe8;
+    font-size: 25px;
+    text-decoration: none;
+  }
+  
+  
+  .burger-menu a:hover {
+    color: rgb(0, 0, 0);
+  }
+  
+
+
+  
+
+/* page nos lieux */
+
+.titre_noslieux{
+    background-color: #282828;
+    text-align: center;
+    color: white;
+    margin:0px;
+    font-size: 80px;
+    padding-top: 60px;
+}
+
+.trait_titre{
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+
+
+/* la grange */
+
+
+.div_grange{
+    background-color: #282828;
+    display: flex;
+    flex-wrap: wrap; 
+    padding-top: 170px;
+    padding-bottom: 90px;
+}
+
+
+.img_lieuxI{
+    width: 50%;
+    margin-left: 50px;
+}
+
+
+.info_lieuxI{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 71px;
+}
+
+
+.full_texte{
+    text-align: center;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+
+.div_lieux_Idescription{
+    width: 500px;
+}
+
+
+.titre_grange{
+    color:white;
+    font-size: 60px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+.celebration{
+    color:white;
+    font-size: 18px;
+    border:1px solid white;
+    border-radius: 20px;
+    padding:10px
+}
+
+
+.evenement_entreprise{
+    color:white;
+    font-size: 18px;
+    border:1px solid white;
+    border-radius: 20px;
+    padding:10px;
+}
+
+
+.texte_lieuxI{
+    color:white;
+    font-size: 20px;
+    line-height:37px;
+}
+    
+
+
+
+
+/* le bouleau */
+
+.div_bouleau{
+    background-color:#F5F5F5 ;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 90px;
+    flex-direction:row-reverse;
+    padding-bottom: 90px;
+}
+
+.fulll_texte{
+    text-align: center;
+}
+
+.img_lieuxII{
+    width: 50%;
+    margin-right: 50px;
+}
+
+.texte_lieuxII{
+    color:#282828 ;
+    width: 500px;
+    font-size: 20px;
+    line-height: 37px;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titre_lieuxII{
+    color:#282828 ;
+    font-size: 60px;
+    width: 684px;
+    margin-top:10px;
+    margin-bottom: 20px;
+}
+
+.info_lieuxII{
+    color:#282828 ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: 18px;
+}
+
+.texte_info{
+    border: 1px solid #282828;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+
+
+
+
+
+/* page sequoia */
+
+.div_sequoia{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.img_lieuxIII{
+    width: 50%;
+    margin-left: 50px;
+}
+
+.fulll_texteIII{
+    text-align: center;
+}
+
+
+.titre_lieuxIII{
+    font-size: 60px;
+    color: #282828;
+    width: 684px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.info_lieuxIII{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.info_texte{
+    font-size: 18px;
+    border: 1px solid #282828;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.texte_lieuxIII{
+    color:#282828 ;
+    font-size: 20px;
+    line-height: 37px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    width: 500px;
+}
+
+
+
+/* page palais */
+
+.div_palais{
+    background-color: #767676;
+    padding-top: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    flex-direction: row-reverse;
+}
+
+.img_lieuxIIII{
+    width: 50%;
+    height: 700px;
+    margin-right: 50px;
+}
+
+.fulll_texteIIII{
+    text-align: center;
+}
+
+.texte_lieuxIIII{
+    color:#ffffff ;
+    font-size: 20px;
+    line-height: 37px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 160px;
+    width: 500px;
+}
+
+.titre_lieuxIIII{
+    color: white;
+    font-size: 60px;
+    width: 684px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.info_lieuxIIII{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.text_info{
+    color:white;
+    font-size: 18px;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+
+
+
+
+
+/* page le nord */
+
+.div_lenord{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-color:#F5F5F5 ;
+    
+}
+
+.img_lieuxIIIII{
+     width: 50%;
+     margin-left: 50px;
+     height: 600px;
+}
+
+.fulll_texteIIIII{
+    text-align: center;
+}
+
+
+.info_lieuxIIIII{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.texte_lieuxIIIII{
+    width: 500px;
+    
+}
+
+.titre_lieuxIIIII{
+    color:#282828;
+    font-size: 60px;
+    width: 684px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+
+.text_infoo{
+    color:#282828;
+    font-size: 18px;
+    border: 1px solid #282828;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.texte_lieuxIIIII{
+    color:#282828;
+    font-size: 20px;
+    line-height: 37px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 670px;
+}
+    
+
+
+/* page l'orangerie */
+
+.div_orangerie{
+    background-color:#282828;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.img_lieuxIIIIII{
+    width: 50%;
+    height: 540px;
+}
+
+
+.fulll_texteIIIIII{
+    color:white;
+    text-align:center ;
+}   
+
+.info_lieuxIIIIII{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.texte_lieuxIIIIII{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    color:#ffffff;
+    font-size: 20px;
+    line-height: 37px;
+    margin-top: 90px;
+    width: 670px;
+}
+
+.titre_lieuxIIIIII{
+    font-size: 60px;
+    width: 710px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.text_iinfoo{
+    color:#ffffff;
+    font-size: 18px;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+/* image du plan du site */
+
+.image_plan{
+  width: 100%;
+  } 
+
+
+
+/* footer */
+
+footer {
+  padding: 2em;
+  background-color: #111820 ;
+  color: #ffffff;
+}
+
+
+.contact {
+text-align: center;
+}
+
+
+.contact p {
+  font-size: 20px;
+}
+
+
+footer img {
+  width: 250px;
+  height: 250px;
+}
+/* .footer{
+    background-color: #2B2B2B;
+  }
+  
+  .logo_footer{
+    width: 16%;
+  }
+  
+  .div_logo{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .div_info{
+    text-align: center;
+  }
+  
+  .texte_footer{
+    color: white;
+    font-size: 25px;
+  }
+  
+  .numero_footer{
+    font-size: 70px;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 22px;
+  }
+  
+  .email_footer{
+    color: white;
+    font-size: 20px;
+    margin-left: 18px;
+  }
+  
+  .div_email{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .icone_mail{
+    width:3%;
+  } */
+
+
+
+
+/*  Responsive design */
+@media screen and (max-width:426px){
+
+  /* header */
+
+
+  /* nav barr */
+
+
+  .logo img{
+    width: 160px;
+  }
+    
+
+  .navbutt{
+    display: none;
+  }
+
+
+  .navbar{
+    padding: 0px 2px;
+    height: 70px;
+  }
+
+
+
+/* arriere plan */
+  
+  header{
+    height: 406px;
+    background-size: cover;
+  }
+
+
+
+
+  /* titre header*/
+
+  .titre_header{
+    font-size: 25px;
+    width: 165px;
+  }
+  .div_titre_header {
+    padding-top: 220px;
+  }
+
+
+
+
+/*MENU HAMBURGER*/
+
+.navbar .burger-menu-button {
+    display: block;
+    color: rgb(255, 255, 255);
+    padding-left: 350px;
+    position: fixed;
+
+
+}
+
+.burger-menu {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+/* page lieux mariage */
+
+/* titre principale */
+
+.titre_noslieux{
+  font-size:xx-large;
+  padding-top: 30px;
+}
+
+
+
+
+
+
+/* page grange */
+
+.div_grange{
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.img_lieuxI {
+  margin-left: 8px;
+  margin-top: 0px;
+  width: 385px;
+  height: 235px;
+}
+
+
+.titre_grange {
+  font-size: x-large;
+  width: 167px;
+  margin-bottom: 0px;
+  margin-left: 112px;
+  margin-top: 20px;
+}
+
+.full_texte {
+  text-align: center;
+  margin-left:0;
+  margin-right:0; 
+  width: 390px;
+}
+
+.info_lieuxI {
+  display: flex;
+  flex-wrap: nowrap;
+  width:389px;
+  margin-bottom: 50px;
+  margin-left: 9px;
+}
+
+.celebration {
+  font-size: 13px;
+  padding: 4px;
+  height: 18px; 
+}
+
+.evenement_entreprise{
+  font-size: 13px;
+  padding: 4px;
+  height: 18px; 
+}
+
+
+.div_lieux_Idescription {
+  width:389px;
+}
+
+
+.texte_lieuxI {
+font-size: 12px;
+line-height: 22px;
+width: 345px;
+margin-left:29px;
+}
+
+
+
+
+
+
+/* page bouleau */
+
+.img_lieuxII{
+  width: 93%;
+  margin-right: 15px;
+}
+
+.div_bouleau{
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+.fulll_texte{
+  width: 426px;
+}
+
+
+.titre_lieuxII {
+  font-size: x-large;
+  width: 280px;
+  margin-top: 20px;
+  margin-left: 62px;
+  margin-bottom: 15px;
+}
+
+.texte_info{
+  font-size: 13px;
+  padding: 3px;
+  margin-left: 0px; 
+}
+
+
+.info_lieuxII{
+  margin-left:0px;
+  justify-content: space-evenly;
+} 
+
+.texte_lieuxII{
+  font-size: 12px;
+  line-height: 22px;
+  width: 267px;
+  margin-top: 50px;
+}
+  
+
+
+
+
+
+
+/* page sequoia */
+
+.div_sequoia{
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.img_lieuxIII{
+  width: 93%;
+  margin-left: 14px;
+}
+
+
+.titre_lieuxIII {
+  font-size: x-large;
+  width: 265px;
+  margin-top: 20px;
+  margin-left: 75px;
+  margin-bottom: 15px;
+}
+.info_lieuxIII{
+   margin-left: 12px;
+}
+
+.info_texte{
+  font-size: 13px;
+  padding: 3px;
+  margin-left: 13px;
+}
+
+.texte_lieuxIII{
+  font-size: 12px;
+    line-height: 22px;
+    margin-left: 79px;
+    margin-top: 50px;
+    width: 241px;
+}
+
+
+
+
+
+
+
+
+
+/* page palais */
+
+.div_palais{
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+
+
+.img_lieuxIIII {
+  width: 76%;
+  height: 327px;
+  margin-right: 50px;
+}
+
+.titre_lieuxIIII {
+ 
+    font-size: x-large;
+    width: 400px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.text_info{
+  font-size: 13px;
+  padding: 3px; 
+}
+
+
+.info_lieuxIIII {
+  margin-left:0px;
+  justify-content: space-evenly;
+}
+
+.texte_lieuxIIII {
+    font-size: 12px;
+    line-height: 22px;
+    margin-top: 50px;
+    width: 224px;
+    margin-left: 88px;
+}
+
+
+
+
+
+
+
+
+
+
+/* page le nord */
+
+.div_lenord{
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.img_lieuxIIIII{
+  width: 91%;
+  margin-left: 20px;
+  height: 300px;
+}
+
+.texte_lieuxIIIII {
+  font-size: 12px;
+  line-height: 22px;
+  margin-top: 50px;
+  width: 296px;
+  margin-left: 50px;
+}
+
+.text_infoo {
+  font-size: 13px;
+  padding: 3px;
+}
+
+.titre_lieuxIIIII {
+  font-size: x-large;
+  width:389px;
+  margin-bottom: 15px;
+  margin-top: 20px;
+  margin-left: 11px;
+}
+
+.fulll_texteIIIII{
+  width: 389px;
+}
+
+.info_lieuxIIIII{
+  margin-left: 23px;
+}
+
+
+/* page l'orangerie */
+
+.div_orangerie{
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+
+.img_lieuxIIIIII{
+  width: 92%;
+  margin-left: 17px;
+  height: 303px;
+}
+
+.texte_lieuxIIIIII{
+  font-size: 12px;
+  line-height: 22px;
+  margin-top: 50px;
+  width: 296px;
+  margin-left: 54px;
+}
+
+
+.text_iinfoo{
+  font-size: 13px;
+  padding: 3px;
+}
+
+.titre_lieuxIIIIII{
+  font-size: x-large;
+  width:389px;
+  margin-bottom: 15px;
+  margin-top: 20px;
+  margin-left: 13px;
+}
+
+.fulll_texteIIIIII{
+  width: 389px;
+}
+
+.info_lieuxIIIIII{
+  margin-left: 14px;
+}
+
+
+
+
+
+
+
+
+/* footer */
+
+footer img {
+  width: 100px;
+  height: 100px;
+}
+
+
+.contact p {
+  font-size: 10px;
+}
+
+
+.contact button{
+  font-size: 13px;
+}
+
+.fa-instagram:before{
+  font-size: 17px;
+}
+
+
+.fa-square-facebook:before{
+  font-size: 17px;
+}
+
+
+.fa-x-twitter:before{
+  font-size: 17px;
+}
+
+
+}
+
+    
+
+
+
+
+
