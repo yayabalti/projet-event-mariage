@@ -1,0 +1,268 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*__________HEADER____________*/
+
+header {
+  width: 100%;
+  z-index: 100;
+  height: 200%;
+}
+
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #00000054;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+.navbar img {
+  height: 100px;
+  width: 100px;
+
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+}
+
+.navbar li {
+  margin: 0 30px;
+
+}
+
+/*------BANNER-----------------*/
+
+.banner {
+  background-image: url('banniere.png');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 280px 0;
+
+}
+
+.banner h1 {
+  font-family: "inter";
+  font-style: italic;
+  font-size: 70px;
+  color: white;
+  font-weight: 100;
+  background-color: rgba(26, 25, 25, 0.452);
+  margin-left: 500px;
+  margin-right: 500px;
+
+}
+
+/* LES BUTTONS navbar header*/
+
+button {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  border: none;
+  background: none;
+  font-weight: 200;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+button::before {
+  margin-left: auto;
+}
+
+button::after,
+button::before {
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: #ffffff;
+  display: block;
+  transition: 0.5s;
+}
+
+button:hover::after,
+button:hover::before {
+  width: 100%;
+}
+
+/* Ajout de styles pour le menu hamburger */
+
+/*MENU HAMBURGER*/
+
+
+.navbar .burger-menu-button {
+
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+  display: none;
+
+}
+
+
+.burger-menu {
+  display: none;
+  height: 0;
+  position: absolute;
+  right: 2.5rem;
+  top: 40px;
+  width: 200px;
+  background: rgba(255, 255, 255, 0.067);
+  backdrop-filter: blur(20px);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: height 0.2S cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.burger-menu.open {
+  height: 300px;
+}
+
+.burger-menu li {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.burger-menu a {
+  color: #6bc0bde8;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.burger-menu a:hover {
+  color: rgb(107, 73, 152);
+}
+
+/*_____________________*/
+
+/*_______________FORFAIT + celebrations_______________*/
+
+.celebration-container {
+  display: flex;
+  padding: 4em;
+  
+  
+  }
+  
+  .title-forfait {
+  text-align: center;
+  padding: 2em;
+  }
+  
+  .title-forfait h1 {
+  font-size: 40px;
+  }
+  
+  .invitee {
+  font-size: 30px;
+  font-style: italic bold;
+  font-weight: 300;
+  }
+  
+  .invitee span {
+  font-size: 15px;
+  color: rgb(153, 153, 153);
+  }
+  
+  .article-1 {
+      font-size: 25px;
+      padding: 1em;
+  
+  }
+  
+
+  /*_______________TITRE NOS CELEBRATIONS_______________*/
+  
+  .title-1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 200;
+    font-style: italic;
+    font-family: "Poppins", sans-serif;
+    background-color: rgba(212, 212, 212, 0.19);
+    padding: 0.3em;
+}
+
+
+ /*______________________________*/
+
+.trait {
+width: 80%;
+}
+
+/* LES BUTTONS RESERVER*/
+
+.bt {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 20px;
+  border: none;
+  background: none;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.bt::before {
+  margin-left: auto;
+}
+
+.bt::after,
+.bt::before {
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: #000000;
+  display: block;
+  transition: 0.5s;
+}
+
+.bt:hover::after,
+.bt:hover::before {
+  width: 100%;
+}
+
+
+/*__________________PLAN DU RANCH___________________*/
+.plan {
+  padding-top: 2em;
+  width: 100%;
+  
+}
+
+
+/*__________________FOOTER___________________*/
+
+footer {
+    
+  padding: 2em;
+  background-color: #111820 ;
+  color: #ffffff;
+}
+
+.contact {
+text-align: center;
+}
+
+.contact p {
+  font-size: 20px;
+}
+
+footer img {
+  width: 250px;
+  height: 250px;
+}

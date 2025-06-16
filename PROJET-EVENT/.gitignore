@@ -1,0 +1,11 @@
+/OneDrive/
+/AppData/
+/.vscode/
+/node_modules/
+/projet-event-mariage/.git
+*.exe
+*.msi
+*.download
+*.lnk
+*.DS_Store
+Thumbs.db
