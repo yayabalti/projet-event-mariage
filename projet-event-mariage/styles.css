@@ -713,9 +713,10 @@ display: none;
 /*__FOOTER___*/
 
 footer {
-    padding: 2em;
+    padding: 1em;
     background-color: #111820 ;
     color: #ffffff;
+    margin-top: -4vh;
 }
 
 

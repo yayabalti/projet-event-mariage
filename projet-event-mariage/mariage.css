@@ -157,8 +157,9 @@ button:hover::before {
 /*_____________SECTION 1_________________*/
 
 .header2 {
-    padding: 8em;
+    padding: 11em;
     display: flex;
+    padding-top: 25vh;
 
 }
 
@@ -464,7 +465,7 @@ padding: 3em;
 }
 
 .picture {
-    padding: 1em;
+    padding:1vh;
     width: 50%;
     
     
@@ -481,9 +482,11 @@ padding: 3em;
 
 footer {
     
-    padding: 2em;
+    padding: 1em;
     background-color: #111820 ;
     color: #ffffff;
+    margin-top: -4vh;
+
 }
 
 .contact {
