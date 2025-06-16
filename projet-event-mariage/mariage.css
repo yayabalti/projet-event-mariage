@@ -20,8 +20,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-   
-    background-color: #00000095;
+    padding: 10px 20px;
+    background-color: #00000048;
     position: fixed;
     width: 100%;
     z-index: 100;
@@ -46,7 +46,7 @@ header {
 /*------BANNER-----------------*/
 
 .banner {
-    background-image: url('IMG/banniere.png');
+    background-image: url('banniere.png');
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -157,7 +157,7 @@ button:hover::before {
 /*_____________SECTION 1_________________*/
 
 .header2 {
-    padding: 10em;
+    padding: 8em;
     display: flex;
 
 }
@@ -495,23 +495,9 @@ footer {
 }
 
 footer img {
-    width: 187px;
-    height: 185px;
+    width: 194px;
+    height: 188px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*________________RESPONSIVE______________*/

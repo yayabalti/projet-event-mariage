@@ -22,6 +22,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px 20px;
     background-color: #00000095;
     position: fixed;
     width: 100%;
@@ -48,34 +49,7 @@ header {
   }
   
   
-  .header2 {
-    padding: 10em;
-    display: flex;
-    height: 53vh;
-}
-
-.header2 img {
-    width: 670px;
-    height: 491px;
-
-}
-
-.title1 {
-
-    width: 600px;
-    height: 491px;
-    background-color: rgb(25, 25, 25);
-
-}
-
-.header2 h1 {
-    text-align: center;
-    font-size: 70px;
-    font-weight: 100;
-    font-style: italic;
-    color: #ffffff;
-    padding-top: 1em;
-}
+  
   
   /*------arriere plan -----------------*/
   
@@ -205,10 +179,7 @@ header {
 
 .trait_titre{
   margin-bottom: 0px;
-  margin-top: -27px;
-  height: 4px; 
-  background-color:#767676 ; 
-  border: none;
+  margin-top: 0px;
 }
 
 
@@ -605,10 +576,53 @@ text-align: center;
 
 
 footer img {
-  width: 187px;
-    height: 185px;
+  width: 194px;
+  height: 188px;
 }
-
+/* .footer{
+    background-color: #2B2B2B;
+  }
+  
+  .logo_footer{
+    width: 16%;
+  }
+  
+  .div_logo{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .div_info{
+    text-align: center;
+  }
+  
+  .texte_footer{
+    color: white;
+    font-size: 25px;
+  }
+  
+  .numero_footer{
+    font-size: 70px;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 22px;
+  }
+  
+  .email_footer{
+    color: white;
+    font-size: 20px;
+    margin-left: 18px;
+  }
+  
+  .div_email{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .icone_mail{
+    width:3%;
+  } */
 
 
 
